@@ -1,0 +1,72 @@
+OSI MODEL 
+There are 7 layers of the osi model;
+1. Pysical
+2. Data link
+3. Network
+4.Transport
+5. Session
+6. Presentation
+7. Application
+
+Note: You don't need to memorise this layers, you just need to understand them and to do that, i'll break it down using real life scenerios or example
+
+OSI MODEL USING A REAL-LIFE ANALOGY ( POSTAL SYSTEM)
+
+Imagige sending a letter to someone
+
+Layer 7 - Application
+   You write your message
+
+Layer 6 - Presentation
+   You choose athe language ( English, French, Encryption)
+
+Layer 5 - Session
+   You start the converstion  ("Hello?" or Bonjour)
+
+Layer 4 -Transport
+   You arrange your message, by divifing the message into numbered pages and ensure delivery.
+
+Layer 3 - Network
+   You Write the destination Address
+
+Layer 2 - Data Link
+   You Package it in an emvelope for the local post office
+
+Layer 1 - Physical
+   It travels pysically (truck, plane or wire)
+
+
+NOW REVERSE IT ON THE RECIEVER SIDE
+
+THAT'S OSI
+
+
+
+THE TECHNICAL SIMPLIFICATION , WILL BE TO FORGET THE 7 LAYERS INDIVIDUALLY AND GEOUP THEM
+
+- TOP (Application side)
+Layers 5-7 = What users see
+
+HTTP
+FTP
+SSH
+DNS
+
+- MIDDLE (Tansport)
+Layer 4 = Reliability
+
+TCP (Reliable)
+UDP (fast, unreliable)
+
+This is where ports live
+
+- ROUTING
+Layer 3 = IP addressing
+
+this is where 192.68.50.20 and 8.8.8.8 live
+
+- HARDWARE
+Layers 1-2 = MAC Adress + cables +WIFI signals
+
+
+
